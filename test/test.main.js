@@ -29,3 +29,29 @@ it('Should return 341 when 143 given', () => {
     assert.equal(reversed, 188);
   }
 );
+it('Should return 688 when 886 given', () => {
+  const reversed = reverse(886);  
+  assert.equal(reversed, 688);
+}
+);
+it('Should return 21 when 12 given', () => {
+  const reversed = reverse(12);  
+  assert.equal(reversed, 21);
+}
+);
+
+it('Should return 138 when 831 given', () => {
+  const reversed = reverse(831);  
+  assert.equal(reversed, 138);
+}
+);
+it('Should return 102 when 201 given', () => {
+  const reversed = reverse(201);  
+  assert.equal(reversed, 102);
+}
+);
+it('Should return 247 when 742 given', () => {
+  const reversed = reverse(742);  
+  assert.equal(reversed, 247);
+}
+);
