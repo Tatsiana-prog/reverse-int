@@ -55,3 +55,8 @@ it('Should return 247 when 742 given', () => {
   assert.equal(reversed, 247);
 }
 );
+it('Should return 462 when -264 given', () => {
+  const reversed = reverse(-264);
+
+  assert.equal(reversed, 462);
+});
